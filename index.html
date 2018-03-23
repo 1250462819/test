@@ -17,12 +17,33 @@
 
 
 <body>
-  <div id="navbar">
-    <a href="#home">Home</a>
-    <a href="#home">Home</a>
-    <a href="#home">Home</a>
-  </div><!-- End Navbar -->
-  
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="../navbar/">Default</a></li>
+                <li><a href="../navbar-static-top/">Static top</a></li>
+                <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</nav>
+
   <div class="bgimg-1">
     <div class="caption">
       <span class="border">Kashan Holiday</span>
@@ -81,23 +102,76 @@
   </div><!-- End Container -->
   <hr>
 
-  <footer class="page-footer">
 
-    <h4> sdjfjflsdjflajdflj jadlfjal jladjfladjfl j </h4>
-    <h6>sdfsdf</h6>
-    fhsdhf
-
-    <!--/.Copyright -->
-
-</footer>
-
- 
-
-
-     
-                    
-                    
-  
-
+  <!--Footer-->
+  <footer>
+      <div class="footer pt-4 mt-4" id="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4">
+                      <h3> Lorem Ipsum </h3>
+                      <ul>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                      </ul>
+                  </div>
+                  <div class="col-md-4">
+                      <h3> Lorem Ipsum </h3>
+                      <ul>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                      </ul>
+                  </div>
+                  <div class="col-md-4">
+                      <h3> Lorem Ipsum </h3>
+                      <ul>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                          <li> <a href="#"> Lorem Ipsum </a> </li>
+                      </ul>
+                  </div>
+                  <!--Social buttons-->
+                  <div class="text-center socialbtn col-md-12">
+                      <ul class="list-unstyled list-inline">
+                          <li class="list-inline-item">
+                              <a class="btn-floating btn-sm btn-fb mx-1">
+                                  <i class="fa fa-facebook"> </i>
+                              </a>
+                          </li>
+                          <li class="list-inline-item">
+                              <a class="btn-floating btn-sm btn-tw mx-1">
+                                  <i class="fa fa-twitter"> </i>
+                              </a>
+                          </li>
+                          <li class="list-inline-item">
+                              <a class="btn-floating btn-sm btn-gplus mx-1">
+                                  <i class="fa fa-google-plus"> </i>
+                              </a>
+                          </li>
+                          <li class="list-inline-item">
+                              <a class="btn-floating btn-sm btn-li mx-1">
+                                  <i class="fa fa-linkedin"> </i>
+                              </a>
+                          </li>
+                          <li class="list-inline-item">
+                              <a class="btn-floating btn-sm btn-dribbble mx-1">
+                                  <i class="fa fa-dribbble"> </i>
+                              </a>
+                          </li>
+                      </ul>
+                  </div><!--Social buttons-->
+              </div>
+              <!--/.row-->
+          </div>
+          <!--/.container-->
+      </div>
+      <!--/.footer-->
+  </footer>
+  <!--/.Footer-->
 </body>
 </html>

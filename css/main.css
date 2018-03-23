@@ -41,7 +41,7 @@ body, html {
   
   .caption span.border {
     border-radius: 10px;
-    background-color: #111;
+  background-color: #111;
     color: #fff;
     padding: 18px;
     font-size: 25px;
@@ -63,17 +63,13 @@ body, html {
   }
 
 
-  /*NavBar Css*/
-  #navbar {
+  .navbar {
     background-color: #333; /* Black background color */
-    position: fixed; /* Make it stick/fixed */
-    top: -50px; /* Hide the navbar 50 px outside of the top view */
-    width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
 
-/* Style the navbar links */
-#navbar a {
+/*!* Style the navbar links *!*/
+.navbar a {
     float: left;
     display: block;
     color: white;
@@ -111,4 +107,19 @@ hr {
   width: 200px;
   height: 200px;
   margin: 3px;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer h3{
+  text-align: right;
+}
+.footer ul li{
+  text-align: right;
+}
+.footer .socialbtn{
+  margin: 15px 0;
 }
