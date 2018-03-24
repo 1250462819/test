@@ -9,3 +9,15 @@ function scrollFunction() {
     document.getElementById("navbar").style.top = "-50px";
   }
 }
+$(window).scroll(function() { // when the page is scrolled run this
+    if($(this).scrollTop() != 0) { // if you're NOT at the top
+        document.getElementById('top').style.visibility = 'visible';
+        $('#top').fadeIn("fast"); // fade in
+    } else { // else
+        $('#top').fadeOut("fast"); // fade out
+    }
+});
+
+$('#top').click(function() { // when the button is clicked
+    $('body,html').animate({scrollTop:0},500); // return to the top with a nice animation
+});

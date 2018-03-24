@@ -61,7 +61,9 @@ body, html {
           background-attachment: scroll;
       }
   }
-
+#top{
+  visibility: hidden;
+}
 
   .navbar {
     background-color: #333; /* Black background color */
@@ -108,18 +110,26 @@ hr {
   height: 200px;
   margin: 3px;
 }
-
+.footer{
+  background: #182c39;
+}
 .footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 .footer h3{
-  text-align: right;
+  text-align: center;
 }
 .footer ul li{
-  text-align: right;
+  text-align: center;
 }
 .footer .socialbtn{
   margin: 15px 0;
+}
+.copyright h4{
+  color: #aaa7a7;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
 }
