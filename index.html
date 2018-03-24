@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
 
+<link rel="stylesheet" href="css/header.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -44,19 +45,57 @@
     </div>
 </nav>
 
-  <div class="bgimg-1">
-    <div class="caption">
-      <span class="border">Kashan Holiday</span>
-    </div>
-  </div><!-- End Home Photo -->
+  <!--<div class="bgimg-1">-->
+    <!--<div class="caption">-->
+      <!--<span class="border">Kashan Holiday</span>-->
+    <!--</div>-->
+  <!--</div>&lt;!&ndash; End Home Photo &ndash;&gt;-->
 
-  
-  <div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+<div id="container">
+    <ul id="slides">
+        <li class="slide">
+            <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/forest-left.jpg"/></div>
+            <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/forest-right.jpg"/></div>
+            <h1 class="title"><span class="title-text">Forest</span></h1>
+        </li>
+        <li class="slide">
+            <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/mountain-left.jpg"/></div>
+            <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/mountain-right.jpg"/></div>
+            <h1 class="title"><span class="title-text">Mountain</span></h1>
+        </li>
+        <li class="slide">
+            <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/ocean-left.jpg"/></div>
+            <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/ocean-right.jpg"/></div>
+            <h1 class="title"><span class="title-text">Ocean</span></h1>
+        </li>
+        <li class="slide">
+            <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/canyon-left.jpg"/></div>
+            <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/canyon-right.jpg"/></div>
+            <h1 class="title"><span class="title-text">Canyon</span></h1>
+        </li>
+        <li class="slide">
+            <div class="slide-partial slide-left"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/lake-left.jpg"/></div>
+            <div class="slide-partial slide-right"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/lake-right.jpg"/></div>
+            <h1 class="title"><span class="title-text">Lake</span></h1>
+        </li>
+    </ul>
+    <ul id="slide-select">
+        <li class="btn prev"><</li>
+        <li class="selector"></li>
+        <li class="selector"></li>
+        <li class="selector"></li>
+        <li class="selector"></li>
+        <li class="selector"></li>
+        <li class="btn next">></li>
+    </ul>
+</div>
+<hr>
+<!--<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">-->
+<div class="container" style="position: relative">
     <h3 style="text-align:center;">Parallax Demo</h3>
     <p>Parallax scrolling is a web site trend where the background content is moved at a different speed than the foreground content while scrolling. Nascetur per nec posuere turpis, lectus nec libero turpis nunc at, sed posuere mollis ullamcorper libero ante lectus, blandit pellentesque a, magna turpis est sapien duis blandit dignissim. Viverra interdum mi magna mi, morbi sociis. Condimentum dui ipsum consequat morbi, curabitur aliquam pede, nullam vitae eu placerat eget et vehicula. Varius quisque non molestie dolor, nunc nisl dapibus vestibulum at, sodales tincidunt mauris ullamcorper, dapibus pulvinar, in in neque risus odio. Accumsan fringilla vulputate at quibusdam sociis eleifend, aenean maecenas vulputate, non id vehicula lorem mattis, ratione interdum sociis ornare. Suscipit proin magna cras vel, non sit platea sit, maecenas ante augue etiam maecenas, porta porttitor placerat leo.</p>
-  </div>
-  <hr>
-
+</div>
+<hr>
   <div class="container">
     <div class="row">
       <div class="col-md-4">
@@ -94,8 +133,6 @@
           <img class="img-thumbnail image_new" src="img/about/2.jpg" alt="">
           <img class="img-thumbnail image_new" src="img/about/3.jpg" alt="">
         </div> <!-- End Row Pic  -->
-        
-
       </div><!-- End Col-md-8 -->
     </div><!-- End Row -->
     
@@ -173,5 +210,6 @@
       <!--/.footer-->
   </footer>
   <!--/.Footer-->
+<script src="js/header.js"></script>
 </body>
 </html>
